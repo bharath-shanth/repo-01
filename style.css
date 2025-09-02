@@ -12,15 +12,10 @@ h1{
 table{
     border: 1px solid rgb(241, 219, 219);
     padding: auto;
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
    /* margin-top: 30px;
    margin-left: 300px;
-=======
-   margin-top: 30px;
-   margin-left: 600px;
->>>>>>> 19aad3d6dbba1fc4bc7abe328cefc8f91b0e1905
    margin-right: 40px;
    position: sticky; */
   
