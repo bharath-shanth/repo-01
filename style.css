@@ -5,17 +5,19 @@ body{
 h1{
     color: aliceblue;
     font-size: 20px;
-    margin-left: 42%;
+    margin-left: 45%;
     margin-top: 40px;
     margin-bottom: 0%;
 }
 table{
     border: 1px solid rgb(241, 219, 219);
     padding: auto;
-   margin-top: 30px;
+    display: flex;
+    justify-content: center;
+   /* margin-top: 30px;
    margin-left: 300px;
    margin-right: 40px;
-   position: sticky;
+   position: sticky; */
   
 }
 input{
