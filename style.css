@@ -12,7 +12,9 @@ h1{
 table{
     border: 1px solid rgb(241, 219, 219);
     padding: auto;
-   margin: 40px 80px 70px 300px;
+   margin-top: 30px;
+   margin-left: 300px;
+   margin-right: 40px;
    position: sticky;
   
 }
