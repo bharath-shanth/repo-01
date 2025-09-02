@@ -6,16 +6,18 @@ h1{
     color: aliceblue;
     font-size: 20px;
     margin-left: 45%;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 0%;
+}
+#tablediv{
+    display: flex;
+    justify-content: center;
 }
 table{
     border: 1px solid rgb(241, 219, 219);
     padding: auto;
-    display: flex;
-    justify-content: center;
-  
-  
+    margin-top: 50px;
+    
 }
 input{
     margin: auto;
