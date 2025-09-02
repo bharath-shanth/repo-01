@@ -1,0 +1,140 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    z-index: -1;
+}
+
+
+header{
+    background-color: #5ef65e;
+    margin: 0px;
+    padding: 1rem;
+    position: sticky;
+    top: 0%;
+}
+
+nav{
+    display: grid;
+    grid-template-columns:4fr 4fr 4fr;
+    grid-template-rows: auto auto auto;
+    padding: 5px;
+    margin: 10px;
+   justify-items: center;
+   list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#About{
+    text-align: center;
+}
+
+
+img{
+    width: 200px;
+    height: auto;
+    box-shadow: 1px 5px 5px 5px rgb(122, 121, 121);
+    border-radius: 6px;
+}
+
+#Projects{
+    text-align: center;
+}
+
+.parentproject{
+    display: flex;
+   gap: 20px;
+}
+
+.project{
+    border: 1px 1px 1px 50px  solid black;
+    text-align: center;
+    padding: 1rem;
+    margin-block: 10px;
+    width: 30rem;
+    border-radius: 1rem;
+    box-shadow: 1px 0px 10px 0px ;
+    border-left: 8px solid #5ef65e;
+    border-bottom: 1px solid #5ef65e ;
+}
+
+
+#Contact{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+input{
+    padding: 10px;
+    text-align: left;
+    margin: 0.5rem;
+    width: 500px;
+}
+textarea{
+    width: 500px;
+   padding-left: 20px;
+   padding-top: 17px;
+}
+ button{
+    margin: 20px;
+    padding: 10px 30px 10px 30px;
+    background:#5ef65e ;
+    border-radius: 5px;
+ }
+  
+ footer{
+    background-color: #5ef65e;
+   margin-top: 15px;
+   padding: 1rem;
+   padding-left:30%;
+   position: sticky;
+   bottom: 0%;
+ }
+
+  @media  (max-width:768px) {
+    header{
+       
+        margin: auto;
+        padding:;
+    }
+    
+    .parentproject{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        align-content: center;
+    }
+
+    input{
+        width: 80%;
+        border: 1px solid black;
+    }
+    textarea{
+        width: 80%;
+    }
+  }
+
+  @media (min-width:768px) and (max-width:1024px) {
+   .project{
+   margin-left: 15%;
+   }
+
+   input{
+    border: 1px solid black;
+    padding: 20px;
+    padding-left: 40px;
+   }
+   textarea{
+    margin-top:10px;
+    padding: 20px;
+    border: 1px solid black;
+   }
+  }
+
+ 
